@@ -21,20 +21,15 @@
 * use [1.angular2-protractor-jasmine-ts-seed](https://github.com/M2JS/1.angular2-protractor-jasmine-ts-seed) as seed,
 <br/>or your own project that you build before in scope of **Developing custom npm packages**
 * create E2E for https://www.epam.com/
+
 | Scenario | Description | Acceptance criteria |
-|-------|-------------|---------------|
+|----------|-------------|---------------------|
 | Header navigation | Check that Header navigation links works | after you click on the link, you should be redirected on the correct page |
 | Job search | Check that search works on https://www.epam.com/careers | 1. Check that autocomplete for "JavaScript" correct; <br/> 2. Check that search results for "JavaScript" are correct |
 
 ### 2. Task (Cucumber)
 * use [2.angular2-protractor-cucumber-ts-seed](https://github.com/M2JS/2.angular2-protractor-cucumber-ts-seed) as seed
 * create E2E for https://www.epam.com/
-
-| Field | Description | Default value |
-|-------|-------------|---------------|
-| `junitReportPath` | Path to standard junit report generated in xml format | `"test-reports/junitresults.xml"` |
-| `jsonReportName` | Name of generated json report. | `"junitresults"` |
-
 
 | Scenario | Description | Acceptance criteria |
 |----------|-------------|---------------------|
