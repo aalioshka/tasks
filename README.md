@@ -10,7 +10,7 @@
 * publish configured 1.angular2-protractor-jasmine-ts-seed to github and sent lick on it
 
 ### 2. Task
-* based on 1. Task develop html reporter (be free to use node core or any npm packages you wish)
+* based on **1. Task**, develop html reporter (be free to use node core or any npm packages you wish)
 * you should add screenshot capturing after each tests execution (no matter failed or passed)
 * save screenshots for local folder (where you save report itself)
 * html reporter should show this screenshots
@@ -29,8 +29,15 @@
 ### 2. Task (Cucumber)
 * use [2.angular2-protractor-cucumber-ts-seed](https://github.com/M2JS/2.angular2-protractor-cucumber-ts-seed) as seed
 * create E2E for https://www.epam.com/
-| Scenario | Description | Acceptance criteria |
+
+| Field | Description | Default value |
 |-------|-------------|---------------|
+| `junitReportPath` | Path to standard junit report generated in xml format | `"test-reports/junitresults.xml"` |
+| `jsonReportName` | Name of generated json report. | `"junitresults"` |
+
+
+| Scenario | Description | Acceptance criteria |
+|----------|-------------|---------------------|
 | Header navigation | Check that Header navigation links works | after you click on the link, you should be redirected on the correct page |
 | Job search | Check that search works on https://www.epam.com/careers | 1. Check that autocomplete for "JavaScript" correct; <br/> 2. Check that search results for "JavaScript" are correct |
 * use two implementation: basic and "cucumber-tsflow" for steps mapping
