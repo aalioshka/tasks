@@ -14,6 +14,7 @@
 * you should add screenshot capturing after each tests execution (no matter failed or passed)
 * save screenshots for local folder (where you save report itself)
 * html reporter should show this screenshots
+* [materials](https://github.com/M2JS/materials/blob/master/TAKESCREENSHOT.md)
 
 ## Practise in TypeScript Automation
 
