@@ -18,6 +18,8 @@
 
 ## Practise in TypeScript Automation
 
+* [materials](https://github.com/M2JS/materials/blob/master/SCROLLING.md) to avoid protractor failure when required element is out of view
+
 ### 1. Task (Jasmine)
 * use [1.angular2-protractor-jasmine-ts-seed](https://github.com/M2JS/1.angular2-protractor-jasmine-ts-seed) as seed,
 <br/>or your own project that you build before in scope of **Developing custom npm packages**
