@@ -39,3 +39,13 @@
 | Header navigation | Check that Header navigation links works | after you click on the link, you should be redirected on the correct page |
 | Job search | Check that search works on https://www.epam.com/careers | 1. Check that autocomplete for "JavaScript" correct; <br/> 2. Check that search results for "JavaScript" are correct |
 * use two implementation: basic and "cucumber-tsflow" for steps mapping
+
+### 3. Task
+* based on **Practise in TypeScript Automation** > **2. Task (Cucumber)** , implement report generator
+* your report generator should be:
+<br/> 1. published to GitHub
+<br/> 2. added to your tests project via package.json
+<br/> 3. functionality should be available through gulp
+* **Help**:
+<br/> some initial implementation and readme you can find here: [awesome-report-generator](https://github.com/M2JS/awesome-report-generator)
+<br/> example of configuration, please find in [README](https://github.com/M2JS/2.angular2-protractor-cucumber-ts-seed/blob/master/README.md) - **Generate tests reports**
