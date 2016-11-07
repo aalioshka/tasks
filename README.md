@@ -46,6 +46,8 @@
 <br/> 1. published to GitHub
 <br/> 2. added to your tests project via package.json
 <br/> 3. functionality should be available through gulp
+<br/> 4. for html report each test (passed and failed) should have screenshot
 * **Help**:
 <br/> some initial implementation and readme you can find here: [awesome-report-generator](https://github.com/M2JS/awesome-report-generator)
 <br/> example of configuration, please find in [README](https://github.com/M2JS/2.angular2-protractor-cucumber-ts-seed/blob/master/README.md) - **Generate tests reports**
+* [materials](https://github.com/M2JS/materials/blob/master/GETIMAGEFROMDECODEDSTRING.md)
